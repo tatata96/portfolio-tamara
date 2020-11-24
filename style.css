@@ -332,7 +332,8 @@ width:20%;
     width: 100%;
   }
   section {
-    min-height: 120vh;
+    min-height: 110vh;
+    min-width: 110vw;
   }
   .about-container {
     display: grid;
