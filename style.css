@@ -340,11 +340,14 @@ h1 {
   .about-div {
     display: contents;
   }
+  
+  .about-div:first-child {
+  width:initial;
+  }
   .about-div img {
     height: 200px;
     width: 200px;
-    padding-top: 7em;
-    padding-right: 4em;
+  
   }
   .about-text{
     width:60%;
@@ -353,10 +356,14 @@ h1 {
     font-size: 50px;
   }
    .text-box {
-    width: 57%;
+    width: 57% !important;
   }
   nav {
     position: initial;
+    font-size:18px;
+  }
+  nav a {
+  margin-right:5px;
   }
 }
 
