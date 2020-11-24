@@ -322,6 +322,9 @@ h1 {
 .about-text{
 width:30%;
 }
+#about-img{
+width:20%;
+}
 
 @media only screen and (max-width: 780px) {
   /* For mobile phones: */
@@ -345,7 +348,7 @@ width:30%;
     display: contents;
   }
   
-  .about-div:first-child {
+  #about-img {
   width:initial;
   }
   .about-div img {
