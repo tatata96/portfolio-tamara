@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
 :root {
   --primary-color: rgb(149, 214, 123);
   --primary-variant: #439c2d;
@@ -22,7 +22,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 body {
@@ -60,7 +60,7 @@ nav {
   padding: 25px;
   width: 100vw;
   background: rgb(255 255 255 / 50%);
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 a {
@@ -71,7 +71,8 @@ a {
   font-weight: bold;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: var(--on-background);
   border-bottom: 3px solid;
 }
@@ -147,7 +148,9 @@ button:hover:not(.outline) {
   border: 2px solid var(--secondary-color);
 }
 
-.secondary, .secondary:hover, .outline.secondary:hover {
+.secondary,
+.secondary:hover,
+.outline.secondary:hover {
   background: var(--secondary-color);
   color: var(--on-primary);
 }
@@ -244,11 +247,11 @@ p {
   width: 26px;
 }
 
-input:checked+.slider {
+input:checked + .slider {
   background: var(--primary-color);
 }
 
-input:checked+.slider::before {
+input:checked + .slider::before {
   transform: translateX(26px);
 }
 
@@ -319,11 +322,11 @@ h1 {
   margin-right: 0px;
 }
 
-.about-text{
-width:30%;
+.about-text {
+  width: 30%;
 }
-#about-img{
-width:20%;
+#about-img {
+  width: 20%;
 }
 
 @media only screen and (max-width: 780px) {
@@ -348,30 +351,32 @@ width:20%;
   .about-div {
     display: contents;
   }
-  
+  #about .contact {
+    margin-top: 4%;
+  }
+
   #about-img {
-  width:initial;
+    width: initial;
   }
   .about-div img {
     height: 200px;
     width: 200px;
-  
   }
-  .about-text{
-    width:60%;
+  .about-text {
+    width: 60%;
   }
   h1 {
     font-size: 50px;
   }
-   .text-box {
+  .text-box {
     width: 57% !important;
   }
   nav {
     position: initial;
-    font-size:18px;
+    font-size: 18px;
   }
   nav a {
-  margin-right:5px;
+    margin-right: 5px;
   }
 }
 
@@ -383,4 +388,15 @@ width:20%;
     margin: 50px;
     justify-content: center;
   }
+}
+
+.project-info {
+  color: #ac9d9d;
+}
+
+.image-container h2 {
+  margin-bottom: 2%;
+}
+.image-container p {
+  margin-bottom: 6%;
 }
