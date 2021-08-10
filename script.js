@@ -31,7 +31,7 @@ function switchTheme(event) {
 //event listeners
 toggleSwitch.addEventListener('change', switchTheme);
 
-
+toggleSwitch.click();
 //check local storage for theme
 const currentTheme = localStorage.getItem('theme');
 if (currentTheme) {
